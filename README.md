@@ -6,18 +6,52 @@ This is a frontend-only prototype of an AI chat application. It demonstrates wha
 
 **What is it for?**
 
-This project serves as a reference implementation or starting point for building an AI chat application. It showcases:
-- A clean, dark-glassmorphism UI design
-- Custom markdown rendering with syntax highlighting
-- Smooth animations and transitions
-- A sidebar-based navigation system with chat history
-- Responsive layout and accessibility considerations
+This project serves as a reference implementation or starting point for building an AI chat application. It showcases a clean, dark-glassmorphism UI, custom markdown rendering with syntax highlighting, smooth animations, a sidebar-based navigation system, and responsive layout patterns.
 
 **Why does it exist?**
 
 To explore and demonstrate frontend patterns for AI chat interfaces without the complexity of backend integration, authentication, or database persistence. It's a sandbox for UI/UX experimentation and a learning resource for developers building similar applications.
 
 > ⚠️ **This is a prototype.** It uses mocked AI responses and keeps chat data in memory only. Reloading the page clears the conversation history.
+
+---
+
+## See It in Action
+
+A dark, glassmorphism chat interface built for the modern web.
+
+<table>
+  <tr>
+    <td align="center"><b>Main Chat</b></td>
+    <td align="center"><b>Sidebar & Recents</b></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Screenshot%202026-06-26%20195510.png" alt="Main chat interface" width="100%"></td>
+    <td><img src="Images/Screenshot%202026-06-26%20195544.png" alt="Sidebar with recent conversations" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Code Highlighting</b></td>
+    <td align="center"><b>Navigation Pages</b></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Screenshot%202026-06-26%20195616.png" alt="Syntax highlighted code block" width="100%"></td>
+    <td><img src="Images/Screenshot%202026-06-26%20195651.png" alt="Help and settings page" width="100%"></td>
+  </tr>
+</table>
+
+### What the screenshots show
+
+**1. Main Chat Interface**  
+The centerpiece of the prototype. A clean, dark chat canvas with a centered welcome prompt and a large input area at the bottom. The design uses subtle translucent surfaces, rounded message bubbles, and generous spacing to keep the focus on the conversation.
+
+**2. Sidebar & Recents**  
+The collapsible sidebar in action. It shows the "New Chat" button, the active chat highlight, and a list of recent conversations ordered by the last time you sent a message. This demonstrates how the app keeps older chats accessible without requiring a database.
+
+**3. Code Highlighting**  
+A message containing a fenced code block rendered with custom syntax highlighting. This screenshot highlights the custom markdown renderer and the lightweight tokenizer that colors keywords, strings, numbers, and comments without relying on a heavy external library.
+
+**4. Navigation Pages**  
+The prototype is not just a single page. The Help and Settings pages share the same dark glassmorphism shell and sidebar, demonstrating how the chat state stays in memory while you move around the app.
 
 ---
 
