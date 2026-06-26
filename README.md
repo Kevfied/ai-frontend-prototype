@@ -26,32 +26,32 @@ A dark, glassmorphism chat interface built for the modern web.
     <td align="center"><b>Sidebar & Recents</b></td>
   </tr>
   <tr>
-    <td><img src="Images/Screenshot%202026-06-26%20195510.png" alt="Main chat interface" width="100%"></td>
+    <td><img src="Images/Screenshot%202026-06-26%20195510.png" alt="Main chat empty state" width="100%"></td>
     <td><img src="Images/Screenshot%202026-06-26%20195544.png" alt="Sidebar with recent conversations" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>Code Highlighting</b></td>
-    <td align="center"><b>Navigation Pages</b></td>
+    <td align="center"><b>Help Page</b></td>
+    <td align="center"><b>Chat with Code Highlighting</b></td>
   </tr>
   <tr>
-    <td><img src="Images/Screenshot%202026-06-26%20195616.png" alt="Syntax highlighted code block" width="100%"></td>
-    <td><img src="Images/Screenshot%202026-06-26%20195651.png" alt="Help and settings page" width="100%"></td>
+    <td><img src="Images/Screenshot%202026-06-26%20195616.png" alt="Help page with FAQ" width="100%"></td>
+    <td><img src="Images/Screenshot%202026-06-26%20195651.png" alt="Active chat with Python code block" width="100%"></td>
   </tr>
 </table>
 
 ### What the screenshots show
 
-**1. Main Chat Interface**  
-The centerpiece of the prototype. A clean, dark chat canvas with a centered welcome prompt and a large input area at the bottom. The design uses subtle translucent surfaces, rounded message bubbles, and generous spacing to keep the focus on the conversation.
+**1. Main Chat — Empty State**  
+The landing view of the chat. A minimalist dark canvas centered around the prompt "What are we tackling today?" with a large rounded input box below it. The top bar shows the "Prototype AI" branding and a sidebar toggle, keeping the interface clean and focused.
 
 **2. Sidebar & Recents**  
-The collapsible sidebar in action. It shows the "New Chat" button, the active chat highlight, and a list of recent conversations ordered by the last time you sent a message. This demonstrates how the app keeps older chats accessible without requiring a database.
+The same chat view with the sidebar expanded. The sidebar contains a "New Chat" button, a Menu section with Help and Settings links, and a Recents list showing example conversations like "Project Planning", "Code Review Help", and "Technical Research". The user profile appears at the bottom.
 
-**3. Code Highlighting**  
-A message containing a fenced code block rendered with custom syntax highlighting. This screenshot highlights the custom markdown renderer and the lightweight tokenizer that colors keywords, strings, numbers, and comments without relying on a heavy external library.
+**3. Help Page**  
+The Help page uses the same dark layout and sidebar. It shows a yellow warning banner labeled "Prototype only" explaining that the app is not fully AI-powered yet. Below it is a set of FAQ accordion items covering what the prototype is, real questions, recent chats, and upcoming features.
 
-**4. Navigation Pages**  
-The prototype is not just a single page. The Help and Settings pages share the same dark glassmorphism shell and sidebar, demonstrating how the chat state stays in memory while you move around the app.
+**4. Chat with Code Highlighting**  
+An active conversation inside the prototype. The user has asked about writing readable code, and the assistant replies with a Python `factorial` example. The code block is rendered with custom syntax highlighting — `def`, `while`, and `return` are colored, and a language label appears in the top-left of the block. A notice above explains this is an example conversation and new messages are not saved.
 
 ---
 
