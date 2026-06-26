@@ -1,6 +1,21 @@
 # AI Frontend Prototype
 
-A polished, prototype-level AI chat interface built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS v4**. This project demonstrates a modern, dark-glassmorphism chat experience with a custom markdown renderer, syntax highlighting, animated UI transitions, and a lightweight in-memory chat state system.
+**What is this?**
+
+This is a frontend-only prototype of an AI chat application. It demonstrates what a modern, polished AI chat interface could look and feel like, with no backend integration. All AI responses are mocked, and the chat state lives entirely in memory.
+
+**What is it for?**
+
+This project serves as a reference implementation or starting point for building an AI chat application. It showcases:
+- A clean, dark-glassmorphism UI design
+- Custom markdown rendering with syntax highlighting
+- Smooth animations and transitions
+- A sidebar-based navigation system with chat history
+- Responsive layout and accessibility considerations
+
+**Why does it exist?**
+
+To explore and demonstrate frontend patterns for AI chat interfaces without the complexity of backend integration, authentication, or database persistence. It's a sandbox for UI/UX experimentation and a learning resource for developers building similar applications.
 
 > ⚠️ **This is a prototype.** It uses mocked AI responses and keeps chat data in memory only. Reloading the page clears the conversation history.
 
